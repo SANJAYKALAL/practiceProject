@@ -1,0 +1,95 @@
+import { color, font } from '@theme';
+import { StyleSheet } from 'react-native';
+
+export const style = StyleSheet.create({
+  headerContainer: { flexDirection: 'row', justifyContent: 'space-between' },
+  subContainer: { flexDirection: 'row', alignItems: 'center' },
+  backArrow: { height: 25, width: 25, resizeMode: 'contain' },
+  cartIcon: { height: 50, width: 50, resizeMode: 'contain' },
+  megaDealContainer: { marginHorizontal: 20, marginTop: 20 },
+  megaDealText: {
+    fontFamily: font.urbanistBold,
+    fontSize: 18,
+  },
+  moneyIcon: { height: 20, width: 20, resizeMode: 'contain' },
+  priceText: {
+    fontFamily: font.urbanistSemiBold,
+    fontSize: 14,
+    marginLeft: 10,
+  },
+  detailText: { fontFamily: font.urbanistMedium, fontSize: 12, marginTop: 10 },
+  listContainer: {
+    borderWidth: 1,
+    flexDirection: 'row',
+    marginTop: 20,
+    backgroundColor: color.white,
+    padding: 10,
+    borderRadius: 5,
+    borderColor: color.border,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  iconContainer: {
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 5,
+    borderColor: color.border,
+    backgroundColor: color.border,
+  },
+  icon: { height: 30, width: 30 },
+  text: { fontSize: 14, fontFamily: font.urbanistSemiBold },
+  subText: { fontSize: 13, fontFamily: font.urbanistMedium },
+  swipeContainer: {
+    backgroundColor: color.white,
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+    alignItems: 'center',
+    padding: 10,
+  },
+  railStyle: {
+    marginHorizontal: 5,
+    marginVertical: 5,
+    borderRadius: 30,
+    marginLeft: 5,
+    opacity: 1,
+  },
+  titleStyle: {
+    fontFamily: font.urbanistMedium,
+    paddingHorizontal: 20,
+    textAlign: 'center',
+    marginLeft: 15,
+  },
+  thumbView: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+  },
+  thumbIcon: { height: 28, width: 28, resizeMode: 'contain' },
+  textView: { marginLeft: 15 },
+  marginBottom: { marginBottom: 110 },
+  megDealTextContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  directionRow: { flexDirection: 'row' },
+  megaDealTextContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  listEmpty: {
+    marginTop: '60%',
+    alignSelf: 'center',
+  },
+  listEmptyText: {
+    fontSize: 18,
+    fontFamily: font.urbanistBold,
+  },
+  mainView: { flex: 1, backgroundColor: color.white },
+  rightArrow: { height: 20, width: 20, tintColor: color.rightArrowTint },
+  view: { flexDirection: 'row', alignItems: 'center' },
+  flexGrow: {
+    flexGrow: 1,
+  },
+});
