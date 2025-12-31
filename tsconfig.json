@@ -1,0 +1,22 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@imageIndex": ["./src/assets/imageIndex"],
+      "@svgIndex": ["./src/assets/svgIconIndex"],
+      "@components": ["./src/component/componentIndex.ts"],
+      "@card":["./src/component/cardIndex.ts"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@context": ["./src/context/index"],
+      "@localization": ["./src/localization/index"],
+      "@screens/*": ["./src/screens/*"],
+      "@redux/*": ["./src/services/redux/*"],
+      "@api/*": ["./src/services/api/*"],
+      "@config/*": ["./src/services/config/*"],
+      "@theme": ["./src/theme/index.ts"], 
+      "@utility/*": ["./src/utility/*"],
+    }
+  }
+}
